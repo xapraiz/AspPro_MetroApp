@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<estation>
+ 	<name>Basauri</name>
+ 	<Line1>
+ 		<leftFirst></leftFirst>
+ 		<leftFrecuency></leftFrecuency>
+ 		<rightFirst></rightFirst>
+ 		<rightFrecuency></rightFrecuency>
+ 	</Line1>
+ 	<Line2>
+ 		<leftFirst></leftFirst>
+ 		<leftFrecuency></leftFrecuency>
+ 		<rightFirst></rightFirst>
+ 		<rightFrecuency></rightFrecuency>
+ 	</Line2> 	
+</estation>
+<estation>
+ 	<name>Ariz</name>
+ 	<Line1>
+ 		<leftFirst></leftFirst>
+ 		<leftFrecuency></leftFrecuency>
+ 		<rightFirst></rightFirst>
+ 		<rightFrecuency></rightFrecuency>
+ 	</Line1>
+ 	<Line2>
+ 		<leftFirst></leftFirst>
+ 		<leftFrecuency></leftFrecuency>
+ 		<rightFirst></rightFirst>
+ 		<rightFrecuency></rightFrecuency>
+ 	</Line2> 	
+</estation>
+<estation>
+ 	<name>Etxebarri</name>
+ 	<Line1>
+ 		<leftFirst></leftFirst>
+ 		<leftFrecuency></leftFrecuency>
+ 		<rightFirst></rightFirst>
+ 		<rightFrecuency></rightFrecuency>
+ 	</Line1>
+ 	<Line2>
+ 		<leftFirst></leftFirst>
+ 		<leftFrecuency></leftFrecuency>
+ 		<rightFirst></rightFirst>
+ 		<rightFrecuency></rightFrecuency>
+ 	</Line2> 	
+</estation>
+<estation>
+ 	<name>Bolueta</name>
+ 	<Line1>
+ 		<leftFirst></leftFirst>
+ 		<leftFrecuency></leftFrecuency>
+ 		<rightFirst></rightFirst>
+ 		<rightFrecuency></rightFrecuency>
+ 	</Line1>
+ 	<Line2>
+ 		<leftFirst></leftFirst>
+ 		<leftFrecuency></leftFrecuency>
+ 		<rightFirst></rightFirst>
+ 		<rightFrecuency></rightFrecuency>
+ 	</Line2> 	
+</estation>
+<estation>
+ 	<name>Basarrate</name>
+ 	<Line1>
+ 		<leftFirst></leftFirst>
+ 		<leftFrecuency></leftFrecuency>
+ 		<rightFirst></rightFirst>
+ 		<rightFrecuency></rightFrecuency>
+ 	</Line1>
+ 	<Line2>
+ 		<leftFirst></leftFirst>
+ 		<leftFrecuency></leftFrecuency>
+ 		<rightFirst></rightFirst>
+ 		<rightFrecuency></rightFrecuency>
+ 	</Line2> 	
+</estation>
+<estation>
+ 	<name>Santutxu</name>
+ 	<Line1>
+ 		<leftFirst></leftFirst>
+ 		<leftFrecuency></leftFrecuency>
+ 		<rightFirst></rightFirst>
+ 		<rightFrecuency></rightFrecuency>
+ 	</Line1>
+ 	<Line2>
+ 		<leftFirst></leftFirst>
+ 		<leftFrecuency></leftFrecuency>
+ 		<rightFirst></rightFirst>
+ 		<rightFrecuency></rightFrecuency>
+ 	</Line2> 	
+</estation>
+<estation>
+ 	<name>Casco Viejo</name>
+ 	<Line1>
+ 		<leftFirst></leftFirst>
+ 		<leftFrecuency></leftFrecuency>
+ 		<rightFirst></rightFirst>
+ 		<rightFrecuency></rightFrecuency>
+ 	</Line1>
+ 	<Line2>
+ 		<leftFirst></leftFirst>
+ 		<leftFrecuency></leftFrecuency>
+ 		<rightFirst></rightFirst>
+ 		<rightFrecuency></rightFrecuency>
+ 	</Line2> 	
+</estation>
+<estation>
+ 	<name>Abando</name>
+ 	<Line1>
+ 		<leftFirst></leftFirst>
+ 		<leftFrecuency></leftFrecuency>
+ 		<rightFirst></rightFirst>
+ 		<rightFrecuency></rightFrecuency>
+ 	</Line1>
+ 	<Line2>
+ 		<leftFirst></leftFirst>
+ 		<leftFrecuency></leftFrecuency>
+ 		<rightFirst></rightFirst>
+ 		<rightFrecuency></rightFrecuency>
+ 	</Line2> 	
+</estation>
+<estation>
+ 	<name>Moyua</name>
+ 	<Line1>
+ 		<leftFirst></leftFirst>
+ 		<leftFrecuency></leftFrecuency>
+ 		<rightFirst></rightFirst>
+ 		<rightFrecuency></rightFrecuency>
+ 	</Line1>
+ 	<Line2>
+ 		<leftFirst></leftFirst>
+ 		<leftFrecuency></leftFrecuency>
+ 		<rightFirst></rightFirst>
+ 		<rightFrecuency></rightFrecuency>
+ 	</Line2> 	
+</estation>
+<estation>
+ 	<name>Indautxu</name>
+ 	<Line1>
+ 		<leftFirst></leftFirst>
+ 		<leftFrecuency></leftFrecuency>
+ 		<rightFirst></rightFirst>
+ 		<rightFrecuency></rightFrecuency>
+ 	</Line1>
+ 	<Line2>
+ 		<leftFirst></leftFirst>
+ 		<leftFrecuency></leftFrecuency>
+ 		<rightFirst></rightFirst>
+ 		<rightFrecuency></rightFrecuency>
+ 	</Line2> 	
+</estation>
+<estation>
+ 	<name>San Mames</name>
+ 	<Line1>
+ 		<leftFirst></leftFirst>
+ 		<leftFrecuency></leftFrecuency>
+ 		<rightFirst></rightFirst>
+ 		<rightFrecuency></rightFrecuency>
+ 	</Line1>
+ 	<Line2>
+ 		<leftFirst></leftFirst>
+ 		<leftFrecuency></leftFrecuency>
+ 		<rightFirst></rightFirst>
+ 		<rightFrecuency></rightFrecuency>
+ 	</Line2> 	
+</estation>
+<estation>
+ 	<name>Deusto</name>
+ 	<Line1>
+ 		<leftFirst></leftFirst>
+ 		<leftFrecuency></leftFrecuency>
+ 		<rightFirst></rightFirst>
+ 		<rightFrecuency></rightFrecuency>
+ 	</Line1>
+ 	<Line2>
+ 		<leftFirst></leftFirst>
+ 		<leftFrecuency></leftFrecuency>
+ 		<rightFirst></rightFirst>
+ 		<rightFrecuency></rightFrecuency>
+ 	</Line2> 	
+</estation>
+<estation>
+ 	<name>Sarriko</name>
+ 	<Line1>
+ 		<leftFirst></leftFirst>
+ 		<leftFrecuency></leftFrecuency>
+ 		<rightFirst></rightFirst>
+ 		<rightFrecuency></rightFrecuency>
+ 	</Line1>
+ 	<Line2>
+ 		<leftFirst></leftFirst>
+ 		<leftFrecuency></leftFrecuency>
+ 		<rightFirst></rightFirst>
+ 		<rightFrecuency></rightFrecuency>
+ 	</Line2> 	
+</estation>
+<estation>
+ 	<name>San Inazio</name>
+ 	<Line1>
+ 		<leftFirst></leftFirst>
+ 		<leftFrecuency></leftFrecuency>
+ 		<rightFirst></rightFirst>
+ 		<rightFrecuency></rightFrecuency>
+ 	</Line1>
+ 	<Line2>
+ 		<leftFirst></leftFirst>
+ 		<leftFrecuency></leftFrecuency>
+ 		<rightFirst></rightFirst>
+ 		<rightFrecuency></rightFrecuency>
+ 	</Line2> 	
+</estation>
+<estation>
+ 	<name>Lutxana</name>
+ 	<Line1>
+ 		<leftFirst></leftFirst>
+ 		<leftFrecuency></leftFrecuency>
+ 		<rightFirst></rightFirst>
+ 		<rightFrecuency></rightFrecuency>
+ 	</Line1>
+ 	<Line2>
+ 		<leftFirst></leftFirst>
+ 		<leftFrecuency></leftFrecuency>
+ 		<rightFirst></rightFirst>
+ 		<rightFrecuency></rightFrecuency>
+ 	</Line2> 	
+</estation>
+<estation>
+ 	<name>Erandio</name>
+ 	<Line1>
+ 		<leftFirst></leftFirst>
+ 		<leftFrecuency></leftFrecuency>
+ 		<rightFirst></rightFirst>
+ 		<rightFrecuency></rightFrecuency>
+ 	</Line1>
+ 	<Line2>
+ 		<leftFirst></leftFirst>
+ 		<leftFrecuency></leftFrecuency>
+ 		<rightFirst></rightFirst>
+ 		<rightFrecuency></rightFrecuency>
+ 	</Line2> 	
+</estation>
+<estation>
+ 	<name>Astrabudua</name>
+ 	<Line1>
+ 		<leftFirst></leftFirst>
+ 		<leftFrecuency></leftFrecuency>
+ 		<rightFirst></rightFirst>
+ 		<rightFrecuency></rightFrecuency>
+ 	</Line1>
+ 	<Line2>
+ 		<leftFirst></leftFirst>
+ 		<leftFrecuency></leftFrecuency>
+ 		<rightFirst></rightFirst>
+ 		<rightFrecuency></rightFrecuency>
+ 	</Line2> 	
+</estation>
