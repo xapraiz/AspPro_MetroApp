@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <estation>
  	<name>Basauri</name>
- 	<Line1>
- 		<leftFirst></leftFirst>
- 		<leftFrecuency></leftFrecuency>
- 		<rightFirst></rightFirst>
- 		<rightFrecuency></rightFrecuency>
- 	</Line1>
  	<Line2>
  		<leftFirst></leftFirst>
  		<leftFrecuency></leftFrecuency>
- 		<rightFirst></rightFirst>
- 		<rightFrecuency></rightFrecuency>
  	</Line2> 	
 </estation>
 <estation>
