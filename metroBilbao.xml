@@ -1,27 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <estation>
  	<name>Basauri</name>
- 	<Line1>
- 		<leftFirst></leftFirst>
- 		<leftFrecuency></leftFrecuency>
- 		<rightFirst></rightFirst>
- 		<rightFrecuency></rightFrecuency>
- 	</Line1>
  	<Line2>
  		<leftFirst></leftFirst>
  		<leftFrecuency></leftFrecuency>
- 		<rightFirst></rightFirst>
- 		<rightFrecuency></rightFrecuency>
  	</Line2> 	
 </estation>
 <estation>
  	<name>Ariz</name>
- 	<Line1>
- 		<leftFirst></leftFirst>
- 		<leftFrecuency></leftFrecuency>
- 		<rightFirst></rightFirst>
- 		<rightFrecuency></rightFrecuency>
- 	</Line1>
  	<Line2>
  		<leftFirst></leftFirst>
  		<leftFrecuency></leftFrecuency>
@@ -253,4 +239,216 @@
  		<rightFirst></rightFirst>
  		<rightFrecuency></rightFrecuency>
  	</Line2> 	
+</estation>
+<estation>
+ 	<name>Leioa</name>
+ 	<Line1>
+ 		<leftFirst></leftFirst>
+ 		<leftFrecuency></leftFrecuency>
+ 		<rightFirst></rightFirst>
+ 		<rightFrecuency></rightFrecuency>
+ 	</Line1>	
+</estation>
+<estation>
+ 	<name>Lamiako</name>
+ 	<Line1>
+ 		<leftFirst></leftFirst>
+ 		<leftFrecuency></leftFrecuency>
+ 		<rightFirst></rightFirst>
+ 		<rightFrecuency></rightFrecuency>
+ 	</Line1>	
+</estation>
+<estation>
+ 	<name>Areeta</name>
+ 	<Line1>
+ 		<leftFirst></leftFirst>
+ 		<leftFrecuency></leftFrecuency>
+ 		<rightFirst></rightFirst>
+ 		<rightFrecuency></rightFrecuency>
+ 	</Line1>	
+</estation>
+<estation>
+ 	<name>Gobela</name>
+ 	<Line1>
+ 		<leftFirst></leftFirst>
+ 		<leftFrecuency></leftFrecuency>
+ 		<rightFirst></rightFirst>
+ 		<rightFrecuency></rightFrecuency>
+ 	</Line1>	
+</estation>
+<estation>
+ 	<name>Neguri</name>
+ 	<Line1>
+ 		<leftFirst></leftFirst>
+ 		<leftFrecuency></leftFrecuency>
+ 		<rightFirst></rightFirst>
+ 		<rightFrecuency></rightFrecuency>
+ 	</Line1>	
+</estation>
+<estation>
+ 	<name>Aiboa</name>
+ 	<Line1>
+ 		<leftFirst></leftFirst>
+ 		<leftFrecuency></leftFrecuency>
+ 		<rightFirst></rightFirst>
+ 		<rightFrecuency></rightFrecuency>
+ 	</Line1>	
+</estation>
+<estation>
+ 	<name>Algorta</name>
+ 	<Line1>
+ 		<leftFirst></leftFirst>
+ 		<leftFrecuency></leftFrecuency>
+ 		<rightFirst></rightFirst>
+ 		<rightFrecuency></rightFrecuency>
+ 	</Line1>	
+</estation>
+<estation>
+ 	<name>Bidezabal</name>
+ 	<Line1>
+ 		<leftFirst></leftFirst>
+ 		<leftFrecuency></leftFrecuency>
+ 		<rightFirst></rightFirst>
+ 		<rightFrecuency></rightFrecuency>
+ 	</Line1>	
+</estation>
+<estation>
+ 	<name>Berango</name>
+ 	<Line1>
+ 		<leftFirst></leftFirst>
+ 		<leftFrecuency></leftFrecuency>
+ 		<rightFirst></rightFirst>
+ 		<rightFrecuency></rightFrecuency>
+ 	</Line1>	
+</estation>
+<estation>
+ 	<name>Larrabasterra</name>
+ 	<Line1>
+ 		<leftFirst></leftFirst>
+ 		<leftFrecuency></leftFrecuency>
+ 		<rightFirst></rightFirst>
+ 		<rightFrecuency></rightFrecuency>
+ 	</Line1>	
+</estation>
+<estation>
+ 	<name>Soplela</name>
+ 	<Line1>
+ 		<leftFirst></leftFirst>
+ 		<leftFrecuency></leftFrecuency>
+ 		<rightFirst></rightFirst>
+ 		<rightFrecuency></rightFrecuency>
+ 	</Line1>	
+</estation>
+<estation>
+ 	<name>Urduliz</name>
+ 	<Line1>
+ 		<leftFirst></leftFirst>
+ 		<leftFrecuency></leftFrecuency>
+ 		<rightFirst></rightFirst>
+ 		<rightFrecuency></rightFrecuency>
+ 	</Line1>	
+</estation>
+<estation>
+ 	<name>Plentzia</name>
+ 	<Line1>
+ 		<rightFirst></rightFirst>
+ 		<rightFrecuency></rightFrecuency>
+ 	</Line1>	
+</estation>
+<estation>
+ 	<name>Gurutzeta Cruces</name>
+ 	<Line2>
+ 		<leftFirst></leftFirst>
+ 		<leftFrecuency></leftFrecuency>
+ 		<rightFirst></rightFirst>
+ 		<rightFrecuency></rightFrecuency>
+ 	</Line2>	
+</estation>
+<estation>
+ 	<name>Ansio</name>
+ 	<Line2>
+ 		<leftFirst></leftFirst>
+ 		<leftFrecuency></leftFrecuency>
+ 		<rightFirst></rightFirst>
+ 		<rightFrecuency></rightFrecuency>
+ 	</Line2>	
+</estation>
+<estation>
+ 	<name>Barakaldo</name>
+ 	<Line2>
+ 		<leftFirst></leftFirst>
+ 		<leftFrecuency></leftFrecuency>
+ 		<rightFirst></rightFirst>
+ 		<rightFrecuency></rightFrecuency>
+ 	</Line2>	
+</estation>
+<estation>
+ 	<name>Bagatza</name>
+ 	<Line2>
+ 		<leftFirst></leftFirst>
+ 		<leftFrecuency></leftFrecuency>
+ 		<rightFirst></rightFirst>
+ 		<rightFrecuency></rightFrecuency>
+ 	</Line2>	
+</estation>
+<estation>
+ 	<name>Urbinaga</name>
+ 	<Line2>
+ 		<leftFirst></leftFirst>
+ 		<leftFrecuency></leftFrecuency>
+ 		<rightFirst></rightFirst>
+ 		<rightFrecuency></rightFrecuency>
+ 	</Line2>	
+</estation>
+<estation>
+ 	<name>Sestao</name>
+ 	<Line2>
+ 		<leftFirst></leftFirst>
+ 		<leftFrecuency></leftFrecuency>
+ 		<rightFirst></rightFirst>
+ 		<rightFrecuency></rightFrecuency>
+ 	</Line2>	
+</estation>
+<estation>
+ 	<name>Abatxolo</name>
+ 	<Line2>
+ 		<leftFirst></leftFirst>
+ 		<leftFrecuency></leftFrecuency>
+ 		<rightFirst></rightFirst>
+ 		<rightFrecuency></rightFrecuency>
+ 	</Line2>	
+</estation>
+<estation>
+ 	<name>Portugalete</name>
+ 	<Line2>
+ 		<leftFirst></leftFirst>
+ 		<leftFrecuency></leftFrecuency>
+ 		<rightFirst></rightFirst>
+ 		<rightFrecuency></rightFrecuency>
+ 	</Line2>	
+</estation>
+<estation>
+ 	<name>Peñota</name>
+ 	<Line2>
+ 		<leftFirst></leftFirst>
+ 		<leftFrecuency></leftFrecuency>
+ 		<rightFirst></rightFirst>
+ 		<rightFrecuency></rightFrecuency>
+ 	</Line2>	
+</estation>
+<estation>
+ 	<name>Santurtzi</name>
+ 	<Line2>
+ 		<leftFirst></leftFirst>
+ 		<leftFrecuency></leftFrecuency>
+ 		<rightFirst></rightFirst>
+ 		<rightFrecuency></rightFrecuency>
+ 	</Line2>	
+</estation>
+<estation>
+ 	<name>Kabiezes</name>
+ 	<Line2>
+ 		<rightFirst></rightFirst>
+ 		<rightFrecuency></rightFrecuency>
+ 	</Line2>	
 </estation>
