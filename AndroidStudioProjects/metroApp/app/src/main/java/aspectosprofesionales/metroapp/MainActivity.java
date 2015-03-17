@@ -4,14 +4,30 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ArrayAdapter;
+
+import java.io.IOException;
+import java.util.List;
 
 
 public class MainActivity extends ActionBarActivity {
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        List<Estation> estations=null;
+
+        try {
+            XMLPullParserHandler parser= new XMLPullParserHandler();
+            estations=parser.parse(getAssets().open("metroBilbao.xml"));
+
+        }catch (IOException e){
+            e.printStackTrace();
+        }
     }
 
 
