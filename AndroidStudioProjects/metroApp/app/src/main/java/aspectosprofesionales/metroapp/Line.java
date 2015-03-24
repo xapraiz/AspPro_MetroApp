@@ -1,21 +1,20 @@
 package aspectosprofesionales.metroapp;
 
-import android.text.format.Time;
+
+import java.util.Date;
 
 /**
  * Created by xabier on 17/03/15.
  */
 public class Line {
-    private Time leftFirst;
+    private Date leftFirst;
     private int leftFrecuency;
-    private Time rightFirst;
+    private Date rightFirst;
     private int rightFrecuency;
 
-    public Time getLeftFirst() {
-        return leftFirst;
-    }
+    public Date getLeftFirst() { return leftFirst;  }
 
-    public void setLeftFirst(Time leftFirst) {
+    public void setLeftFirst(Date leftFirst) {
         this.leftFirst = leftFirst;
     }
 
@@ -27,11 +26,11 @@ public class Line {
         this.leftFrecuency = leftFrecuency;
     }
 
-    public Time getRightFirst() {
+    public Date getRightFirst() {
         return rightFirst;
     }
 
-    public void setRightFirst(Time rightFirst) {
+    public void setRightFirst(Date rightFirst) {
         this.rightFirst = rightFirst;
     }
 

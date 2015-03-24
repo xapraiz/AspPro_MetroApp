@@ -10,10 +10,10 @@
     <estation>
     <name>Ariz</name>
     <Line2>
-        <leftFirst></leftFirst>
-        <leftFrecuency></leftFrecuency>
-        <rightFirst></rightFirst>
-        <rightFrecuency></rightFrecuency>
+        <leftFirst>07:32:00 am</leftFirst>
+        <leftFrecuency>04</leftFrecuency>
+        <rightFirst>07:03:00 am</rightFirst>
+        <rightFrecuency>03</rightFrecuency>
     </Line2>
     </estation>
     <estation>
