@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#ffc1c0ff">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Origen:"
+        android:id="@+id/Torigen"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="59dp"
+        android:textSize="30dp"
+        android:textColor="#ff000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Destino:"
+        android:id="@+id/Tdestino"
+        android:layout_marginTop="60dp"
+        android:layout_below="@+id/Torigen"
+        android:layout_alignLeft="@+id/Torigen"
+        android:layout_alignStart="@+id/Torigen"
+        android:textSize="30dp"
+        android:textColor="#ff000000"/>
+
+    <ExpandableListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ListaOrigen"
+        android:layout_below="@+id/Torigen"
+        android:layout_marginTop="5dp"
+        android:layout_alignLeft="@+id/Tdestino"
+        android:layout_alignStart="@+id/Tdestino" />
+
+    <ExpandableListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ListaDestino"
+        android:layout_below="@+id/Tdestino"
+        android:layout_marginTop="5dp"
+        android:layout_alignLeft="@+id/ListaOrigen"
+        android:layout_alignStart="@+id/ListaOrigen" />
+
+    <ImageButton
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/BmapDest"
+        android:layout_alignTop="@+id/ListaOrigen"
+        android:layout_toRightOf="@+id/Tdestino"
+        android:layout_marginLeft="112dp"
+        android:layout_marginStart="112dp"
+        android:src="@drawable/location"
+        android:scaleType="fitXY"/>
+
+    <ImageButton
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/BmapOri"
+        android:layout_alignTop="@+id/ListaDestino"
+        android:layout_alignLeft="@+id/BmapDest"
+        android:layout_alignStart="@+id/BmapDest"
+        android:src="@drawable/location"
+        android:scaleType="fitXY"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buscar"
+        android:width="120dp"
+        android:height="40dp"
+        android:id="@+id/Bbuscar"
+        android:background="#ffff6510"
+        android:textSize="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_above="@+id/Bsalir"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Destino:"
+        android:id="@+id/Thora"
+        android:layout_marginTop="60dp"
+        android:layout_below="@+id/Tdestino"
+        android:layout_alignLeft="@+id/Torigen"
+        android:layout_alignStart="@+id/Torigen"
+        android:textSize="30dp"
+        android:textColor="#ff000000"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Salir"
+        android:id="@+id/Bsalir"
+        android:background="#ffff1719"
+        android:layout_marginBottom="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/BmapOri"
+        android:layout_alignEnd="@+id/BmapOri" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Salida"
+        android:id="@+id/Rsalida"
+        android:layout_below="@+id/Thora"
+        android:layout_alignLeft="@+id/ListaOrigen"
+        android:layout_alignStart="@+id/ListaOrigen"
+        android:textSize="20dp"/>
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Llegada"
+        android:id="@+id/Rllegada"
+        android:textSize="20dp"
+        android:layout_alignTop="@+id/Rsalida"
+        android:layout_toLeftOf="@+id/BmapOri"
+        android:layout_toStartOf="@+id/BmapOri" />
+
+</RelativeLayout>
