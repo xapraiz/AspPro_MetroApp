@@ -1,25 +1,30 @@
 package aspectosprofesionales.metroapp;
 
+import android.app.Activity;
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.Toast;
 
 import java.io.IOException;
 import java.util.List;
 
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends Activity {
 
-
+    List<Estation> estations;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        List<Estation> estations=null;
+        Toast t1=Toast.makeText(getApplicationContext(),"Inicializando",Toast.LENGTH_SHORT);
+        t1.show();
 
         try {
             XMLPullParserHandler parser= new XMLPullParserHandler();
@@ -28,28 +33,50 @@ public class MainActivity extends ActionBarActivity {
         }catch (IOException e){
             e.printStackTrace();
         }
+
+        Toast t2=Toast.makeText(getApplicationContext(),"Número de estaciones: " + estations.size(),Toast.LENGTH_SHORT);
+        t2.show();
+
+        final Intent i=new Intent(this, SalirAhora.class);
+        final Button bAhora = (Button) findViewById(R.id.Bahora);
+        bAhora.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(i);
+            }
+        });
+
+        final Intent i2 = new Intent(this, Planificar.class);
+        final Button bPlanificar = (Button) findViewById(R.id.Bplanificar);
+        bPlanificar.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(i2);
+
+            }
+        });
+
+        final Intent i3 = new Intent(this, LineasMetro.class);
+        final Button bMapa = (Button) findViewById(R.id.Bmapa);
+        bMapa.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(i3);
+
+            }
+        });
+
+        final Button bSalir = (Button) findViewById(R.id.Bsalir);
+        bMapa.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                //destroy
+                android.os.Process.killProcess(android.os.Process.myPid());
+
+            }
+        });
+
+
     }
 
+    public void onDestroy(){
+        super.onDestroy();
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
-
-        return super.onOptionsItemSelected(item);
     }
 }
