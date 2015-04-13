@@ -12,4 +12,4 @@ FUNIONALIDADES BÁSICAS:
 - Planificación de horarios para cojer un metro a la hora y estación estrablecidas por el usuario.
 
 OTRAS FUNCIONALIDADES EXTRA (Sin confirmar):
-- Estaición más cercana (necesarios permisos de localización GPS).
+- Estación más cercana (necesarios permisos de localización GPS).
